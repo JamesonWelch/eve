@@ -8,6 +8,9 @@ alerts = [
 ]
 
 def monitor_logs(log_dir):
+    '''Displays a log stream of the most update-to-date logs for realtime
+    monitoring. Program beeps if any alerts are found.
+    '''
     last_lines = {}
 
     while True:
